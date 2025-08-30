@@ -1,6 +1,6 @@
 import AnimatedTitle from "./AnimatedTitle";
 import Button from "./Button";
-import Button2 from "./callButton";
+// import Button2 from "./callButton";
 const ImageClipBox = ({ src, clipClass }) => (
   <div className={clipClass}>
     <img src={src} />
@@ -44,7 +44,7 @@ const Contact = () => {
             title="let&#39;s b<b>u</b>ild the <br /> digital identity of <br /> yo<b>u</b>r Company t<b>o</b>gether."
             className="special-font !md:text-[6.2rem] w-full font-zentry !text-5xl !font-black !leading-[.9]"
           />
- <Button2 title="contact us" containerClass="mt-10 cursor-pointer"
+ <Button title="contact us" containerClass="mt-10 cursor-pointer"
 phoneNumber="+251931581346"
 //  onClick={handleCall}
  />
